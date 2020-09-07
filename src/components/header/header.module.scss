@@ -9,6 +9,7 @@
   width: 100%;
   padding: 0 30px;
   @include for-desktop-up {
+    height: 60px;
   }
 }
 .logo {
