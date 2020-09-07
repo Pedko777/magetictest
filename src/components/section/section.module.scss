@@ -1,0 +1,35 @@
+@import 'variables.scss';
+@import 'mixin.scss';
+.leftbar {
+  margin: 0;
+  left: 0;
+  height: 100vh;
+  width: 40px;
+  background-color: $primary-color;
+  padding-left: 10px;
+}
+
+.sectionWrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.listItem {
+  padding-top: 10px;
+  width: 15px;
+}
+
+.list li:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+.gridWrapper {
+  height: 400px;
+  margin: 0 auto;
+  width: 90%;
+}
+.textGrid {
+  display: flex;
+  justify-content: space-between;
+}

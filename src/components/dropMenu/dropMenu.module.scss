@@ -1,0 +1,53 @@
+@import 'variables.scss';
+@import 'mixin.scss';
+
+.navContainer {
+  background-color: $primary-color;
+  z-index: 2;
+}
+.logoLink {
+  margin: 0;
+  padding: 12px 15px 8px 11px;
+}
+.navList {
+  margin: 0 auto;
+  list-style: none;
+  flex-flow: column nowrap;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  height: 100%;
+  width: 20%;
+  // background-color: $bg-main-color;
+}
+.navListItem {
+  height: 100vh;
+}
+.navListWrapper {
+  height: 100%;
+  padding: 15px 20px;
+  background-color: $primary-color;
+}
+
+.navLink {
+  border: none;
+  //   background-color: $bg-main-color;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.navLink:hover {
+  transition: 0.3s ease-in-out;
+  color: red;
+}
+
+.navListWrapper li:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+.logoWrapper {
+  background-color: $secondary-color;
+  width: 100%;
+  height: 40px;
+}

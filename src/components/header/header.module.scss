@@ -1,0 +1,27 @@
+@import 'mixin.scss';
+@import 'variables.scss';
+.nav {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  padding: 0 30px;
+  @include for-desktop-up {
+  }
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 41px;
+  background-color: $secondary-color;
+}
+
+.header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
